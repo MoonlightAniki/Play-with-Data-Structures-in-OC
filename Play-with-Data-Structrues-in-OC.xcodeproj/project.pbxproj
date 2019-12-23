@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		EC306CF523AFB34B00FDE4EB /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF423AFB34B00FDE4EB /* Array.m */; };
 		EC306CF723AFCBFD00FDE4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF623AFCBFD00FDE4EB /* main.m */; };
+		ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1170F23B10D2000A67597 /* ArrayStack.m */; };
+		ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171323B10D2100A67597 /* LoopQueue.m */; };
+		ECF1171923B10D2100A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171423B10D2100A67597 /* main.m */; };
+		ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171623B10D2100A67597 /* ArrayQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +32,15 @@
 		EC306CF323AFB34B00FDE4EB /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		EC306CF423AFB34B00FDE4EB /* Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
 		EC306CF623AFCBFD00FDE4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF1170E23B10D2000A67597 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		ECF1170F23B10D2000A67597 /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
+		ECF1171023B10D2000A67597 /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
+		ECF1171123B10D2100A67597 /* LoopQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopQueue.h; sourceTree = "<group>"; };
+		ECF1171223B10D2100A67597 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		ECF1171323B10D2100A67597 /* LoopQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopQueue.m; sourceTree = "<group>"; };
+		ECF1171423B10D2100A67597 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF1171523B10D2100A67597 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		ECF1171623B10D2100A67597 /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				EC306CF223AFB2EA00FDE4EB /* 02-Arrays */,
+				ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,6 +79,22 @@
 				EC306CF623AFCBFD00FDE4EB /* main.m */,
 			);
 			path = "02-Arrays";
+			sourceTree = "<group>";
+		};
+		ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1170E23B10D2000A67597 /* ArrayQueue.h */,
+				ECF1171623B10D2100A67597 /* ArrayQueue.m */,
+				ECF1171023B10D2000A67597 /* ArrayStack.h */,
+				ECF1170F23B10D2000A67597 /* ArrayStack.m */,
+				ECF1171123B10D2100A67597 /* LoopQueue.h */,
+				ECF1171323B10D2100A67597 /* LoopQueue.m */,
+				ECF1171423B10D2100A67597 /* main.m */,
+				ECF1171223B10D2100A67597 /* Queue.h */,
+				ECF1171523B10D2100A67597 /* Stack.h */,
+			);
+			path = "03-Stacks-and-Queues";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF1171923B10D2100A67597 /* main.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
+				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,
+				ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */,
+				ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,7 +44,7 @@
 }
 
 -(BOOL)isEmpty {
-    return self.size != 0;
+    return self.size == 0;
 }
 
 -(void)insertObject:(id)anObject atIndex:(NSInteger)index {
@@ -140,6 +140,14 @@
     }
     [self removeObjectAtIndex:index];
     return YES;
+}
+
+-(id)firstObject {
+    return [self objectAtIndex:0];
+}
+
+-(id)lastObject {
+    return [self objectAtIndex:self.size - 1];
 }
 
 -(void)resize:(NSInteger)newCapacity {

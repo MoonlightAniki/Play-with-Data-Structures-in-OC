@@ -16,6 +16,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype)init;
 
+@property(nonatomic, readonly) ObjectType firstObject;
+
+@property(nonatomic, readonly) ObjectType lastObject;
+
 -(NSInteger)getCapacity;
 
 -(NSInteger)getSize;

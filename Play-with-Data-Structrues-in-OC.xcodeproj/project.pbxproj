@@ -13,6 +13,10 @@
 		ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171323B10D2100A67597 /* LoopQueue.m */; };
 		ECF1171923B10D2100A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171423B10D2100A67597 /* main.m */; };
 		ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171623B10D2100A67597 /* ArrayQueue.m */; };
+		ECF1174923B4C67100A67597 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1174823B4C67100A67597 /* LinkedList.m */; };
+		ECF1174B23B4F0DA00A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1174A23B4F0DA00A67597 /* main.m */; };
+		ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1174D23B4F5D300A67597 /* LinkedListStack.m */; };
+		ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1175023B4F92000A67597 /* LinkedListQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +45,13 @@
 		ECF1171423B10D2100A67597 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECF1171523B10D2100A67597 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		ECF1171623B10D2100A67597 /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
+		ECF1174723B4C67100A67597 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		ECF1174823B4C67100A67597 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		ECF1174A23B4F0DA00A67597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF1174C23B4F5D300A67597 /* LinkedListStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		ECF1174D23B4F5D300A67597 /* LinkedListStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		ECF1174F23B4F92000A67597 /* LinkedListQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListQueue.h; sourceTree = "<group>"; };
+		ECF1175023B4F92000A67597 /* LinkedListQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +70,7 @@
 			children = (
 				EC306CF223AFB2EA00FDE4EB /* 02-Arrays */,
 				ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */,
+				ECF1174623B4C5C000A67597 /* 04-Linked-List */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +107,20 @@
 				ECF1171523B10D2100A67597 /* Stack.h */,
 			);
 			path = "03-Stacks-and-Queues";
+			sourceTree = "<group>";
+		};
+		ECF1174623B4C5C000A67597 /* 04-Linked-List */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1174723B4C67100A67597 /* LinkedList.h */,
+				ECF1174823B4C67100A67597 /* LinkedList.m */,
+				ECF1174A23B4F0DA00A67597 /* main.m */,
+				ECF1174C23B4F5D300A67597 /* LinkedListStack.h */,
+				ECF1174D23B4F5D300A67597 /* LinkedListStack.m */,
+				ECF1174F23B4F92000A67597 /* LinkedListQueue.h */,
+				ECF1175023B4F92000A67597 /* LinkedListQueue.m */,
+			);
+			path = "04-Linked-List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF1171923B10D2100A67597 /* main.m in Sources */,
+				ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */,
+				ECF1174923B4C67100A67597 /* LinkedList.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
+				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,
 				ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */,
+				ECF1174B23B4F0DA00A67597 /* main.m in Sources */,
 				ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

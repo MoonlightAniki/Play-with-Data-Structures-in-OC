@@ -12,17 +12,17 @@
 #import "LoopQueue.h"
 #import "Queue.h"
 
-void testQueue(id<Queue> queue, NSString *queueName, NSInteger opCount) {
-    NSTimeInterval startTime = [[NSDate date] timeIntervalSince1970];
-    for (NSInteger i = 0; i < opCount; ++i) {
-        [queue enqueue:@(i)];
-    }
-    while(![queue isEmpty]) {
-        [queue dequeue];
-    }
-    NSTimeInterval endTime = [[NSDate date] timeIntervalSince1970];
-    NSLog(@"%@, opCount: %@, cost time: %@ ms", queueName, @(opCount), @((endTime - startTime) * 1000));
-}
+//void testQueue(id<Queue> queue, NSString *queueName, NSInteger opCount) {
+//    NSTimeInterval startTime = [[NSDate date] timeIntervalSince1970];
+//    for (NSInteger i = 0; i < opCount; ++i) {
+//        [queue enqueue:@(i)];
+//    }
+//    while(![queue isEmpty]) {
+//        [queue dequeue];
+//    }
+//    NSTimeInterval endTime = [[NSDate date] timeIntervalSince1970];
+//    NSLog(@"%@, opCount: %@, cost time: %@ ms", queueName, @(opCount), @((endTime - startTime) * 1000));
+//}
 
 int main003() {
 //    ArrayStack<NSNumber *> *stack = [[ArrayStack alloc] init];
@@ -65,10 +65,10 @@ int main003() {
 //    NSLog(@"getFront: %@", [loopQueue getFront]);
 //    NSLog(@"%@", loopQueue);
     
-    LoopQueue *loopQueue = [[LoopQueue alloc] init];
-    ArrayQueue *arrayQueue = [[ArrayQueue alloc] init];
-    NSInteger opCount = 10000;
-    testQueue(loopQueue, @"LoopQueue", opCount);
-    testQueue(arrayQueue, @"ArrayQueue", opCount);
+//    LoopQueue *loopQueue = [[LoopQueue alloc] init];
+//    ArrayQueue *arrayQueue = [[ArrayQueue alloc] init];
+//    NSInteger opCount = 10000;
+//    testQueue(loopQueue, @"LoopQueue", opCount);
+//    testQueue(arrayQueue, @"ArrayQueue", opCount);
     return 0;
 }

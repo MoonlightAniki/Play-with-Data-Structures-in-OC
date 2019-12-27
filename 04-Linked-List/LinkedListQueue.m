@@ -7,7 +7,7 @@
 //
 
 #import "LinkedListQueue.h"
-#import "LinkedList.h"
+#import "Node.h"
 
 @interface LinkedListQueue()
 

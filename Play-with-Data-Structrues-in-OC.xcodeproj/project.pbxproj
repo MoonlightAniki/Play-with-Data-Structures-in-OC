@@ -17,6 +17,9 @@
 		ECF1174B23B4F0DA00A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1174A23B4F0DA00A67597 /* main.m */; };
 		ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1174D23B4F5D300A67597 /* LinkedListStack.m */; };
 		ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1175023B4F92000A67597 /* LinkedListQueue.m */; };
+		ECF1175623B5B67B00A67597 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1175523B5B67B00A67597 /* Node.m */; };
+		ECF1175C23B636CD00A67597 /* LinkedListR.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1175B23B636CD00A67597 /* LinkedListR.m */; };
+		ECF1175E23B644D300A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1175D23B644D300A67597 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +55,11 @@
 		ECF1174D23B4F5D300A67597 /* LinkedListStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
 		ECF1174F23B4F92000A67597 /* LinkedListQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListQueue.h; sourceTree = "<group>"; };
 		ECF1175023B4F92000A67597 /* LinkedListQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListQueue.m; sourceTree = "<group>"; };
+		ECF1175423B5B67B00A67597 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		ECF1175523B5B67B00A67597 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		ECF1175A23B636CD00A67597 /* LinkedListR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListR.h; sourceTree = "<group>"; };
+		ECF1175B23B636CD00A67597 /* LinkedListR.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListR.m; sourceTree = "<group>"; };
+		ECF1175D23B644D300A67597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,7 @@
 				EC306CF223AFB2EA00FDE4EB /* 02-Arrays */,
 				ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */,
 				ECF1174623B4C5C000A67597 /* 04-Linked-List */,
+				ECF1175923B6359C00A67597 /* 05-Recursion */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,8 +128,20 @@
 				ECF1174D23B4F5D300A67597 /* LinkedListStack.m */,
 				ECF1174F23B4F92000A67597 /* LinkedListQueue.h */,
 				ECF1175023B4F92000A67597 /* LinkedListQueue.m */,
+				ECF1175423B5B67B00A67597 /* Node.h */,
+				ECF1175523B5B67B00A67597 /* Node.m */,
 			);
 			path = "04-Linked-List";
+			sourceTree = "<group>";
+		};
+		ECF1175923B6359C00A67597 /* 05-Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1175A23B636CD00A67597 /* LinkedListR.h */,
+				ECF1175B23B636CD00A67597 /* LinkedListR.m */,
+				ECF1175D23B644D300A67597 /* main.m */,
+			);
+			path = "05-Recursion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF1175E23B644D300A67597 /* main.m in Sources */,
+				ECF1175623B5B67B00A67597 /* Node.m in Sources */,
 				ECF1171923B10D2100A67597 /* main.m in Sources */,
 				ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */,
 				ECF1174923B4C67100A67597 /* LinkedList.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
+				ECF1175C23B636CD00A67597 /* LinkedListR.m in Sources */,
 				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,

@@ -1,8 +1,8 @@
 //
-//  LinkedList.h
+//  LinkedListR.h
 //  Play-with-Data-Structrues-in-OC
 //
-//  Created by Liang Guo on 2019/12/26.
+//  Created by Liang Guo on 2019/12/27.
 //  Copyright © 2019 guoliang. All rights reserved.
 //
 
@@ -10,7 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LinkedList<ObjectType> : NSObject
+/* 使用递归实现链表 */
+@interface LinkedListR<ObjectType> : NSObject
 
 -(instancetype)initWithArray:(NSArray<ObjectType> *)array;
 

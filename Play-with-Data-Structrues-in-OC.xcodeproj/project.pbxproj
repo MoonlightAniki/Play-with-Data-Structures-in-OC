@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EC306CF523AFB34B00FDE4EB /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF423AFB34B00FDE4EB /* Array.m */; };
 		EC306CF723AFCBFD00FDE4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF623AFCBFD00FDE4EB /* main.m */; };
+		ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F0F23B899AA0031D9ED /* TreeNode.m */; };
+		ECD06F1223B89ADC0031D9ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1123B89ADC0031D9ED /* main.m */; };
+		ECD06F1523B89B150031D9ED /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1423B89B150031D9ED /* BST.m */; };
 		ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1170F23B10D2000A67597 /* ArrayStack.m */; };
 		ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171323B10D2100A67597 /* LoopQueue.m */; };
 		ECF1171923B10D2100A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171423B10D2100A67597 /* main.m */; };
@@ -39,6 +42,11 @@
 		EC306CF323AFB34B00FDE4EB /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		EC306CF423AFB34B00FDE4EB /* Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
 		EC306CF623AFCBFD00FDE4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECD06F0E23B899AA0031D9ED /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		ECD06F0F23B899AA0031D9ED /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		ECD06F1123B89ADC0031D9ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECD06F1323B89B150031D9ED /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		ECD06F1423B89B150031D9ED /* BST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
 		ECF1170E23B10D2000A67597 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
 		ECF1170F23B10D2000A67597 /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
 		ECF1171023B10D2000A67597 /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
@@ -80,6 +88,7 @@
 				ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */,
 				ECF1174623B4C5C000A67597 /* 04-Linked-List */,
 				ECF1175923B6359C00A67597 /* 05-Recursion */,
+				ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +109,18 @@
 				EC306CF623AFCBFD00FDE4EB /* main.m */,
 			);
 			path = "02-Arrays";
+			sourceTree = "<group>";
+		};
+		ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */ = {
+			isa = PBXGroup;
+			children = (
+				ECD06F0E23B899AA0031D9ED /* TreeNode.h */,
+				ECD06F0F23B899AA0031D9ED /* TreeNode.m */,
+				ECD06F1123B89ADC0031D9ED /* main.m */,
+				ECD06F1323B89B150031D9ED /* BST.h */,
+				ECD06F1423B89B150031D9ED /* BST.m */,
+			);
+			path = "06-Binary-Search-Tree";
 			sourceTree = "<group>";
 		};
 		ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */ = {
@@ -208,8 +229,11 @@
 				ECF1174923B4C67100A67597 /* LinkedList.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
 				ECF1175C23B636CD00A67597 /* LinkedListR.m in Sources */,
+				ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */,
 				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
+				ECD06F1523B89B150031D9ED /* BST.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
+				ECD06F1223B89ADC0031D9ED /* main.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,
 				ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */,
 				ECF1174B23B4F0DA00A67597 /* main.m in Sources */,

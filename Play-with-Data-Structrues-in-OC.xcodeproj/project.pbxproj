@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		EC306CF523AFB34B00FDE4EB /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF423AFB34B00FDE4EB /* Array.m */; };
 		EC306CF723AFCBFD00FDE4EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC306CF623AFCBFD00FDE4EB /* main.m */; };
+		ECA95C9323BA36A80007DBAB /* BSTSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95C9223BA36A80007DBAB /* BSTSet.m */; };
+		ECA95C9623BA382F0007DBAB /* LinkedListSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95C9523BA382F0007DBAB /* LinkedListSet.m */; };
+		ECA95C9923BA39650007DBAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95C9823BA39650007DBAB /* main.m */; };
+		ECA95C9D23BA3F560007DBAB /* LinkedListMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95C9C23BA3F560007DBAB /* LinkedListMap.m */; };
+		ECA95CA023BA3F820007DBAB /* ListNodeKV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95C9F23BA3F820007DBAB /* ListNodeKV.m */; };
+		ECA95CA323BA455C0007DBAB /* BSTMap.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95CA223BA455C0007DBAB /* BSTMap.m */; };
+		ECA95CA623BA456C0007DBAB /* TreeNodeKV.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA95CA523BA456C0007DBAB /* TreeNodeKV.m */; };
 		ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F0F23B899AA0031D9ED /* TreeNode.m */; };
 		ECD06F1223B89ADC0031D9ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1123B89ADC0031D9ED /* main.m */; };
 		ECD06F1523B89B150031D9ED /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1423B89B150031D9ED /* BST.m */; };
@@ -42,6 +49,21 @@
 		EC306CF323AFB34B00FDE4EB /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
 		EC306CF423AFB34B00FDE4EB /* Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
 		EC306CF623AFCBFD00FDE4EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA95C9023BA36230007DBAB /* Set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Set.h; sourceTree = "<group>"; };
+		ECA95C9123BA36A80007DBAB /* BSTSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSTSet.h; sourceTree = "<group>"; };
+		ECA95C9223BA36A80007DBAB /* BSTSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTSet.m; sourceTree = "<group>"; };
+		ECA95C9423BA382F0007DBAB /* LinkedListSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListSet.h; sourceTree = "<group>"; };
+		ECA95C9523BA382F0007DBAB /* LinkedListSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListSet.m; sourceTree = "<group>"; };
+		ECA95C9823BA39650007DBAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA95C9A23BA3DC40007DBAB /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		ECA95C9B23BA3F560007DBAB /* LinkedListMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListMap.h; sourceTree = "<group>"; };
+		ECA95C9C23BA3F560007DBAB /* LinkedListMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedListMap.m; sourceTree = "<group>"; };
+		ECA95C9E23BA3F820007DBAB /* ListNodeKV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNodeKV.h; sourceTree = "<group>"; };
+		ECA95C9F23BA3F820007DBAB /* ListNodeKV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListNodeKV.m; sourceTree = "<group>"; };
+		ECA95CA123BA455C0007DBAB /* BSTMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSTMap.h; sourceTree = "<group>"; };
+		ECA95CA223BA455C0007DBAB /* BSTMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTMap.m; sourceTree = "<group>"; };
+		ECA95CA423BA456C0007DBAB /* TreeNodeKV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNodeKV.h; sourceTree = "<group>"; };
+		ECA95CA523BA456C0007DBAB /* TreeNodeKV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNodeKV.m; sourceTree = "<group>"; };
 		ECD06F0E23B899AA0031D9ED /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		ECD06F0F23B899AA0031D9ED /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		ECD06F1123B89ADC0031D9ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +111,7 @@
 				ECF1174623B4C5C000A67597 /* 04-Linked-List */,
 				ECF1175923B6359C00A67597 /* 05-Recursion */,
 				ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */,
+				ECA95C8F23BA35F70007DBAB /* 07-Set-and-Map */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +132,28 @@
 				EC306CF623AFCBFD00FDE4EB /* main.m */,
 			);
 			path = "02-Arrays";
+			sourceTree = "<group>";
+		};
+		ECA95C8F23BA35F70007DBAB /* 07-Set-and-Map */ = {
+			isa = PBXGroup;
+			children = (
+				ECA95C9023BA36230007DBAB /* Set.h */,
+				ECA95C9123BA36A80007DBAB /* BSTSet.h */,
+				ECA95C9223BA36A80007DBAB /* BSTSet.m */,
+				ECA95C9423BA382F0007DBAB /* LinkedListSet.h */,
+				ECA95C9523BA382F0007DBAB /* LinkedListSet.m */,
+				ECA95C9823BA39650007DBAB /* main.m */,
+				ECA95C9A23BA3DC40007DBAB /* Map.h */,
+				ECA95C9B23BA3F560007DBAB /* LinkedListMap.h */,
+				ECA95C9C23BA3F560007DBAB /* LinkedListMap.m */,
+				ECA95C9E23BA3F820007DBAB /* ListNodeKV.h */,
+				ECA95C9F23BA3F820007DBAB /* ListNodeKV.m */,
+				ECA95CA123BA455C0007DBAB /* BSTMap.h */,
+				ECA95CA223BA455C0007DBAB /* BSTMap.m */,
+				ECA95CA423BA456C0007DBAB /* TreeNodeKV.h */,
+				ECA95CA523BA456C0007DBAB /* TreeNodeKV.m */,
+			);
+			path = "07-Set-and-Map";
 			sourceTree = "<group>";
 		};
 		ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */ = {
@@ -222,22 +267,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA95CA323BA455C0007DBAB /* BSTMap.m in Sources */,
+				ECA95CA023BA3F820007DBAB /* ListNodeKV.m in Sources */,
 				ECF1175E23B644D300A67597 /* main.m in Sources */,
 				ECF1175623B5B67B00A67597 /* Node.m in Sources */,
 				ECF1171923B10D2100A67597 /* main.m in Sources */,
 				ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */,
+				ECA95CA623BA456C0007DBAB /* TreeNodeKV.m in Sources */,
 				ECF1174923B4C67100A67597 /* LinkedList.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
 				ECF1175C23B636CD00A67597 /* LinkedListR.m in Sources */,
+				ECA95C9623BA382F0007DBAB /* LinkedListSet.m in Sources */,
+				ECA95C9923BA39650007DBAB /* main.m in Sources */,
 				ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */,
 				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
 				ECD06F1523B89B150031D9ED /* BST.m in Sources */,
+				ECA95C9323BA36A80007DBAB /* BSTSet.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
 				ECD06F1223B89ADC0031D9ED /* main.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,
 				ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */,
 				ECF1174B23B4F0DA00A67597 /* main.m in Sources */,
 				ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */,
+				ECA95C9D23BA3F560007DBAB /* LinkedListMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

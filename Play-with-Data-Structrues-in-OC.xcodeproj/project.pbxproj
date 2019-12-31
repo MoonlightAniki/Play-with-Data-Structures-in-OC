@@ -19,6 +19,9 @@
 		ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F0F23B899AA0031D9ED /* TreeNode.m */; };
 		ECD06F1223B89ADC0031D9ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1123B89ADC0031D9ED /* main.m */; };
 		ECD06F1523B89B150031D9ED /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD06F1423B89B150031D9ED /* BST.m */; };
+		ECE499A423BB850D0000027B /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A323BB850D0000027B /* MaxHeap.m */; };
+		ECE499A623BB8DF80000027B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A523BB8DF80000027B /* main.m */; };
+		ECE499A923BB94D00000027B /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A823BB94D00000027B /* PriorityQueue.m */; };
 		ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1170F23B10D2000A67597 /* ArrayStack.m */; };
 		ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171323B10D2100A67597 /* LoopQueue.m */; };
 		ECF1171923B10D2100A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171423B10D2100A67597 /* main.m */; };
@@ -69,6 +72,11 @@
 		ECD06F1123B89ADC0031D9ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECD06F1323B89B150031D9ED /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
 		ECD06F1423B89B150031D9ED /* BST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
+		ECE499A223BB850D0000027B /* MaxHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxHeap.h; sourceTree = "<group>"; };
+		ECE499A323BB850D0000027B /* MaxHeap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxHeap.m; sourceTree = "<group>"; };
+		ECE499A523BB8DF80000027B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE499A723BB94D00000027B /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		ECE499A823BB94D00000027B /* PriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
 		ECF1170E23B10D2000A67597 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
 		ECF1170F23B10D2000A67597 /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
 		ECF1171023B10D2000A67597 /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 				ECF1175923B6359C00A67597 /* 05-Recursion */,
 				ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */,
 				ECA95C8F23BA35F70007DBAB /* 07-Set-and-Map */,
+				ECE499A123BB84D00000027B /* 08-Heap-and-Priority-Queue */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,6 +175,18 @@
 				ECD06F1423B89B150031D9ED /* BST.m */,
 			);
 			path = "06-Binary-Search-Tree";
+			sourceTree = "<group>";
+		};
+		ECE499A123BB84D00000027B /* 08-Heap-and-Priority-Queue */ = {
+			isa = PBXGroup;
+			children = (
+				ECE499A223BB850D0000027B /* MaxHeap.h */,
+				ECE499A323BB850D0000027B /* MaxHeap.m */,
+				ECE499A523BB8DF80000027B /* main.m */,
+				ECE499A723BB94D00000027B /* PriorityQueue.h */,
+				ECE499A823BB94D00000027B /* PriorityQueue.m */,
+			);
+			path = "08-Heap-and-Priority-Queue";
 			sourceTree = "<group>";
 		};
 		ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */ = {
@@ -270,6 +291,7 @@
 				ECA95CA323BA455C0007DBAB /* BSTMap.m in Sources */,
 				ECA95CA023BA3F820007DBAB /* ListNodeKV.m in Sources */,
 				ECF1175E23B644D300A67597 /* main.m in Sources */,
+				ECE499A923BB94D00000027B /* PriorityQueue.m in Sources */,
 				ECF1175623B5B67B00A67597 /* Node.m in Sources */,
 				ECF1171923B10D2100A67597 /* main.m in Sources */,
 				ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */,
@@ -282,7 +304,9 @@
 				ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */,
 				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
 				ECD06F1523B89B150031D9ED /* BST.m in Sources */,
+				ECE499A623BB8DF80000027B /* main.m in Sources */,
 				ECA95C9323BA36A80007DBAB /* BSTSet.m in Sources */,
+				ECE499A423BB850D0000027B /* MaxHeap.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
 				ECD06F1223B89ADC0031D9ED /* main.m in Sources */,
 				EC306CF523AFB34B00FDE4EB /* Array.m in Sources */,

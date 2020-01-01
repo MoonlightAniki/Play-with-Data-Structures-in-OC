@@ -22,6 +22,12 @@
 		ECE499A423BB850D0000027B /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A323BB850D0000027B /* MaxHeap.m */; };
 		ECE499A623BB8DF80000027B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A523BB8DF80000027B /* main.m */; };
 		ECE499A923BB94D00000027B /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499A823BB94D00000027B /* PriorityQueue.m */; };
+		ECE499AC23BC4B760000027B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499AB23BC4B760000027B /* main.m */; };
+		ECE499AF23BC4BC10000027B /* SegmentTree.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499AE23BC4BC10000027B /* SegmentTree.m */; };
+		ECE499B123BC6F950000027B /* LeetCode0303.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499B023BC6F950000027B /* LeetCode0303.m */; };
+		ECE499B323BC78C70000027B /* LeetCode0307.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499B223BC78C70000027B /* LeetCode0307.m */; };
+		ECE499B623BC7DF80000027B /* SegmentTree2.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499B523BC7DF80000027B /* SegmentTree2.m */; };
+		ECE499B923BC7E0D0000027B /* SegmentTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE499B823BC7E0D0000027B /* SegmentTreeNode.m */; };
 		ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1170F23B10D2000A67597 /* ArrayStack.m */; };
 		ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171323B10D2100A67597 /* LoopQueue.m */; };
 		ECF1171923B10D2100A67597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF1171423B10D2100A67597 /* main.m */; };
@@ -77,6 +83,15 @@
 		ECE499A523BB8DF80000027B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECE499A723BB94D00000027B /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
 		ECE499A823BB94D00000027B /* PriorityQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
+		ECE499AB23BC4B760000027B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE499AD23BC4BC10000027B /* SegmentTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTree.h; sourceTree = "<group>"; };
+		ECE499AE23BC4BC10000027B /* SegmentTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTree.m; sourceTree = "<group>"; };
+		ECE499B023BC6F950000027B /* LeetCode0303.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCode0303.m; sourceTree = "<group>"; };
+		ECE499B223BC78C70000027B /* LeetCode0307.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCode0307.m; sourceTree = "<group>"; };
+		ECE499B423BC7DF80000027B /* SegmentTree2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTree2.h; sourceTree = "<group>"; };
+		ECE499B523BC7DF80000027B /* SegmentTree2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTree2.m; sourceTree = "<group>"; };
+		ECE499B723BC7E0D0000027B /* SegmentTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentTreeNode.h; sourceTree = "<group>"; };
+		ECE499B823BC7E0D0000027B /* SegmentTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentTreeNode.m; sourceTree = "<group>"; };
 		ECF1170E23B10D2000A67597 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
 		ECF1170F23B10D2000A67597 /* ArrayStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayStack.m; sourceTree = "<group>"; };
 		ECF1171023B10D2000A67597 /* ArrayStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
@@ -121,6 +136,7 @@
 				ECD06F0D23B899680031D9ED /* 06-Binary-Search-Tree */,
 				ECA95C8F23BA35F70007DBAB /* 07-Set-and-Map */,
 				ECE499A123BB84D00000027B /* 08-Heap-and-Priority-Queue */,
+				ECE499AA23BC4AB40000027B /* 09-Segment-Tree */,
 				EC306CE923AFB24D00FDE4EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +203,22 @@
 				ECE499A823BB94D00000027B /* PriorityQueue.m */,
 			);
 			path = "08-Heap-and-Priority-Queue";
+			sourceTree = "<group>";
+		};
+		ECE499AA23BC4AB40000027B /* 09-Segment-Tree */ = {
+			isa = PBXGroup;
+			children = (
+				ECE499AB23BC4B760000027B /* main.m */,
+				ECE499AD23BC4BC10000027B /* SegmentTree.h */,
+				ECE499AE23BC4BC10000027B /* SegmentTree.m */,
+				ECE499B023BC6F950000027B /* LeetCode0303.m */,
+				ECE499B223BC78C70000027B /* LeetCode0307.m */,
+				ECE499B423BC7DF80000027B /* SegmentTree2.h */,
+				ECE499B523BC7DF80000027B /* SegmentTree2.m */,
+				ECE499B723BC7E0D0000027B /* SegmentTreeNode.h */,
+				ECE499B823BC7E0D0000027B /* SegmentTreeNode.m */,
+			);
+			path = "09-Segment-Tree";
 			sourceTree = "<group>";
 		};
 		ECF1170D23B10CEA00A67597 /* 03-Stacks-and-Queues */ = {
@@ -295,16 +327,21 @@
 				ECF1175623B5B67B00A67597 /* Node.m in Sources */,
 				ECF1171923B10D2100A67597 /* main.m in Sources */,
 				ECF1174E23B4F5D300A67597 /* LinkedListStack.m in Sources */,
+				ECE499B623BC7DF80000027B /* SegmentTree2.m in Sources */,
 				ECA95CA623BA456C0007DBAB /* TreeNodeKV.m in Sources */,
 				ECF1174923B4C67100A67597 /* LinkedList.m in Sources */,
 				EC306CF723AFCBFD00FDE4EB /* main.m in Sources */,
 				ECF1175C23B636CD00A67597 /* LinkedListR.m in Sources */,
+				ECE499AF23BC4BC10000027B /* SegmentTree.m in Sources */,
 				ECA95C9623BA382F0007DBAB /* LinkedListSet.m in Sources */,
 				ECA95C9923BA39650007DBAB /* main.m in Sources */,
 				ECD06F1023B899AA0031D9ED /* TreeNode.m in Sources */,
+				ECE499B123BC6F950000027B /* LeetCode0303.m in Sources */,
 				ECF1175123B4F92000A67597 /* LinkedListQueue.m in Sources */,
 				ECD06F1523B89B150031D9ED /* BST.m in Sources */,
+				ECE499AC23BC4B760000027B /* main.m in Sources */,
 				ECE499A623BB8DF80000027B /* main.m in Sources */,
+				ECE499B923BC7E0D0000027B /* SegmentTreeNode.m in Sources */,
 				ECA95C9323BA36A80007DBAB /* BSTSet.m in Sources */,
 				ECE499A423BB850D0000027B /* MaxHeap.m in Sources */,
 				ECF1171823B10D2100A67597 /* LoopQueue.m in Sources */,
@@ -313,6 +350,7 @@
 				ECF1171723B10D2100A67597 /* ArrayStack.m in Sources */,
 				ECF1174B23B4F0DA00A67597 /* main.m in Sources */,
 				ECF1171A23B10D2100A67597 /* ArrayQueue.m in Sources */,
+				ECE499B323BC78C70000027B /* LeetCode0307.m in Sources */,
 				ECA95C9D23BA3F560007DBAB /* LinkedListMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
